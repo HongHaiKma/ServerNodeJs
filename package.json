@@ -1,0 +1,28 @@
+{
+  "name": "simple-nodejs-web-service",
+  "version": "1.0.0",
+  "description": "A simple nodejs web server guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concalahan/simple-nodejs-web-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/concalahan/simple-nodejs-web-service/issues"
+  },
+  "homepage": "https://github.com/concalahan/simple-nodejs-web-service#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "kill-port": "^2.0.1",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
